@@ -195,6 +195,8 @@
                 }
                 .footer_social{
                     display: flex;
+                    flex-direction: row;
+                    height: auto;
                 }
                 .footer_location{
                     font-size: 14px;
@@ -324,6 +326,12 @@
                 .admonition_link_icon_mobile{
                     display: none;
                 }
+                .footer_social_icon{
+                    padding: 2px;
+                    border: 3px solid white;
+                    border-radius: 90px;
+                    margin: 2px;
+                }
             }
             @media screen and (orientation: portrait) {
                 body{
@@ -348,7 +356,7 @@
                     font-size: 30px;
                     font-weight: 400;
                     font-family: 'Raleway', sans-serif;
-                    margin: auto;
+                    margin: auto 0 auto 160px;
                     width: 60%;
                 }
                 #top_heading{
@@ -551,6 +559,18 @@
                 .footer_social_mobile{
                     margin: 190px auto 0 auto;
                     display: flex;
+                }
+                .footer_social_icon_mobile{
+                    padding: 10px;
+                    border: 6px solid white;
+                    border-radius: 90px;
+                    margin: 20px;
+                }
+                .footer_social_icon_mobile{
+                    padding: 10px;
+                    border: 6px solid white;
+                    border-radius: 90px;
+                    margin: 20px;
                 }
                 .footer_location{
                     font-size: 26px;
@@ -885,8 +905,8 @@
                 </div>
                 <div class="footer_about_us">
                     <a href=""><div class="footer_navs">About Us</div></a><br>
-                    <a href=""><div class="footer_navs">Press</div></a><br>
                     <a href=""><div class="footer_navs">Jobs</div></a><br>
+                    <a href=""><div class="footer_navs">Press</div></a><br>
                     <a href=""><div class="footer_navs">Blog</div></a><br>
                 </div>
                 <div class="footer_contact_us">
@@ -895,14 +915,14 @@
                     <a href=""><div class="footer_navs">Privacy</div></a><br>
                 </div>
                 <div class="footer_social">
-                    <div><img src="https://img.icons8.com/windows/2x/ffffff/facebook-new.png" width="35px" height="35px" alt="FB"></div>
-                    <div><img src="https://img.icons8.com/windows/2x/ffffff/twitter.png" width="35px" height="35px" alt="TW"></div>
-                    <div><img src="https://img.icons8.com/windows/2x/ffffff/instagram-new.png" width="35px" height="35px" alt="IG"></div>
+                    <div><img class="footer_social_icon" src="https://www.iconsdb.com/icons/preview/white/facebook-xl.png" width="30px" height="30px" alt="FB"></div>
+                    <div><img class="footer_social_icon" src="https://img.icons8.com/windows/2x/ffffff/twitter.png" width="30px" height="30px" alt="TW"></div>
+                    <div><img class="footer_social_icon" src="https://img.icons8.com/windows/2x/ffffff/instagram-new.png" width="30px" height="30px" alt="IG"></div>
                 </div>
                 <div class="footer_social_mobile">
-                    <div><img src="https://img.icons8.com/windows/2x/ffffff/facebook-new.png" width="65px" height="65px" alt="FB"></div>
-                    <div><img src="https://img.icons8.com/windows/2x/ffffff/twitter.png" width="35px" height="35px" alt="TW"></div>
-                    <div><img src="https://img.icons8.com/windows/2x/ffffff/instagram-new.png" width="35px" height="35px" alt="IG"></div>
+                    <div class="footer_social_icon_mobile"><img src="https://www.iconsdb.com/icons/preview/white/facebook-xl.png" width="85px" height="85px" alt="FB"></div>
+                    <div class="footer_social_icon_mobile"><img src="https://img.icons8.com/windows/2x/ffffff/twitter.png" width="85px" height="85px" alt="TW"></div>
+                    <div class="footer_social_icon_mobile"><img src="https://img.icons8.com/windows/2x/ffffff/instagram-new.png" width="85px" height="85px" alt="IG"></div>
                 </div>
             </div>
         </footer>
